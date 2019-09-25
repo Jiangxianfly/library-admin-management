@@ -120,7 +120,7 @@ public class BookClassContorller {
 	/** 
 	   * @Title : EditBookClass 
 	   * @功能描述: TODO 编辑信息
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param parameter
 	   * @参数： @param ra
 	   * @参数： @return 
