@@ -152,7 +152,6 @@ public class BookClassContorller {
 	   */
 	@RequestMapping( value="/updateBookClass",method={ RequestMethod.POST, RequestMethod.GET } )
 	@RequiresPermissions(value={"bookClass:updateBookClass","iterm:all"},logical=Logical.OR)
-
 	public String UpdateBookClass(Parameter parameter,RedirectAttributes ra,@Validated BookClass bookClass,BindingResult br,Model model)
 	{
 
