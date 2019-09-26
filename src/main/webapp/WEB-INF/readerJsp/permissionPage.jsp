@@ -36,7 +36,7 @@
         <h1>用户权限信息展示</h1>
         <hr/>
     </div>
-    <table class="table table-striped table-hover col-sm-8 ">
+    <table class="table table-bordered table-hover col-sm-10 ">
         <thead class="bg-danger">
         <td>用户名</td>
         <td>角色</td>

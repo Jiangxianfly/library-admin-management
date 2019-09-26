@@ -10,7 +10,7 @@
     <title></title>
     <style type="text/css">
         body {
-            background-color: #122B40;
+            background-color: #474540;
         }
 
         * {
@@ -88,7 +88,7 @@
         .menu ul li a {
             display: block;
             color: #FFF;
-            background-color: #122B40
+            background-color: #474540
         }
 
         .menu ul li a:hover {

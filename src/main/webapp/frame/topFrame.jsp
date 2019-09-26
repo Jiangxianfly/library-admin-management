@@ -19,14 +19,14 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<style type="text/css">
 		a{
 			margin-right: 20px;
-			color:#FFFFFF;
+			color: #b5ff90;
 		}
 		.pull-right
 		{
 			margin-top: 30px;
 		}
 		body{
-			background-color:#122B40;
+			background-color: #474540;
 		}
 	</style>
 
