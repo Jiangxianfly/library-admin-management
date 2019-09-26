@@ -35,37 +35,38 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			<div class="form-group">
 			<h3>信息注册</h3>
 			</div>
-			<form class="form-inline" method="post" action="readerType/insertReaderType">
-				<div class="form-group">
+			<form class="form-horizontal" method="post" action="readerType/insertReaderType">
+				<div class="col-sm-3">
 					<label>类别：</label>
 					<input type="text" class="form-control"  placeholder="读者类别如0，1。。。" name="rdType"/>
 				</div>
-				<div class="form-group">
+				<div class="col-sm-3">
 					<label>名称：</label>
 					<input type="text" class="form-control" placeholder="读者类型名称" name="rdTypeName"/>
 				</div>
-				<div class="form-group">
+				<div class="col-sm-3">
 					<label>可借书的数量：</label>
 					<input type="text" class="form-control" placeholder="借书的数量" name="canLendQty"/>
 				</div>
-				<div class="form-group">
+				<div class="col-sm-3">
 					<label>可借书的天数：</label>
 					<input type="text" class="form-control" placeholder="借书的天数" name="canLendDay"/>
 				</div>
-				<div class="form-group">
+				<div class="col-sm-3">
 					<label>可续借的次数：</label>
 					<input type="text" class="form-control" placeholder="续借的次数" name="canContinueTimes"/>
 				</div>
-				<div class="form-group">
+				<div class="col-sm-3">
 					<label>罚款率：</label>
 					<input type="text" class="form-control"placeholder="罚款率" name="punishRate"/>
 				</div>
-				<div class="form-group">
+				<div class="col-sm-3">
 					<label>证书有效期：</label>
 					<input type="text" class="form-control" placeholder="有效期" name="dateValid"/>
 				</div>
-				<div class="form-group right">
-				<input type="submit" class="btn btn-danger " value="submit" />
+				<div class="col-sm-3 right">
+					<label>&nbsp;</label>
+				<input type="submit" class=" form-control btn btn-danger " value="submit" />
 				</div>
 			</form>
 		</div>
@@ -111,15 +112,15 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			<nav aria-label="...">
 				<ul class="pager">
 					<li>
-						<a href="<%=basePath%>/readerType/searchReaderType?start=${start-10}&rdType=${rdType}">Previous</a>
+						<a href="<%=basePath%>/readerType/searchReaderType?start=${start-10}&rdType=${rdType}">上一页</a>
 					</li>
 					<li>
-						<a href="<%=basePath%>/readerType/searchReaderType?start=${start+10}&rdType=${rdType}">Next</a>
+						<a href="<%=basePath%>/readerType/searchReaderType?start=${start+10}&rdType=${rdType}">下一页</a>
 					</li>
 				</ul>
 			</nav>
 		</div>
-			<a href="<%=basePath%>/readerType/exportExcel?start=${start}&rdType=${rdType}"><span class="glyphicon glyphicon-save">导出Excel表</span></a>
+			<a  href="<%=basePath%>/readerType/exportExcel?start=${start}&rdType=${rdType}"><span class="glyphicon glyphicon-save">导出Excel表</span></a>
 		<div class="row">
 			<hr />
 		</div>
@@ -127,37 +128,38 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			<div class="form-group">
 			<h3>信息修改</h3>
 			</div>
-			<form class="form-inline" method="post" action="readerType/updateReaderType?start=${start }">
-				<div class="form-group">
+			<form class="form-horizontal" method="post" action="readerType/updateReaderType?start=${start }">
+				<div class="col-sm-3">
 					<label>类别：</label>
 					<input type="text" class="form-control"  placeholder="读者类别如0，1。。。" name="rdType" readonly="readonly" value="${readerType.rdType }"/>
 				</div>
-				<div class="form-group">
+				<div class="col-sm-3">
 					<label>名称：</label>
 					<input type="text" class="form-control" placeholder="读者类型名称" name="rdTypeName" value="${readerType.rdTypeName  }"/>
 				</div>
-				<div class="form-group">
+				<div class="col-sm-3">
 					<label>可借书的数量：</label>
 					<input type="text" class="form-control" placeholder="借书的数量" name="canLendQty" value="${readerType.canLendQty }"/>
 				</div>
-				<div class="form-group">
+				<div class="col-sm-3">
 					<label>可借书的天数：</label>
 					<input type="text" class="form-control" placeholder="借书的天数" name="canLendDay" value="${readerType.canLendDay }"/>
 				</div>
-				<div class="form-group">
+				<div class="col-sm-3">
 					<label>可续借的次数：</label>
 					<input type="text" class="form-control" placeholder="续借的次数" name="canContinueTimes" value="${readerType.canContinueTimes }"/>
 				</div>
-				<div class="form-group">
+				<div class="col-sm-3">
 					<label>罚款率：</label>
 					<input type="text" class="form-control"placeholder="罚款率" name="punishRate" value="${readerType.punishRate }"/>
 				</div>
-				<div class="form-group">
+				<div class="col-sm-3">
 					<label>证书有效期：</label>
 					<input type="text" class="form-control" placeholder="有效期" name="dateValid" value="${readerType.dateValid }"/>
 				</div>
-				<div class="form-group right">
-				<input type="submit" class="btn btn-danger " value="submit" />
+				<div class="col-sm-3 right">
+					<label>&nbsp;</label>
+				<input type="submit" class=" form-control btn btn-danger " value="submit" />
 				</div>
 			</form>
 		</div>

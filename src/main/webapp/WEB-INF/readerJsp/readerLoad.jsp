@@ -42,43 +42,43 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			</div>
 		</div>
 		<div class="row">
-			<form class=" form-inline col-md-7" action="reader/readerLoad" method="post" enctype="multipart/form-data">
-				<div class="form-group">
+			<form class=" form-horizontal col-md-7" action="reader/readerLoad" method="post" enctype="multipart/form-data">
+				<div class="col-sm-3">
 					<span>用户名&nbsp;&nbsp;:</span>
 					<input type="text" class="form-control" name="rdID" placeholder="用户名" />
 				</div>
-				<div class="form-group">
+				<div class="col-sm-3">
 					<span>姓名&nbsp;&nbsp;&nbsp;&nbsp;:</span>
 					<input type="text" class="form-control" name="rdName" placeholder="姓名" />
 				</div>
-				<div class="form-group">
+				<div class="col-sm-3">
 					<span>性别&nbsp;&nbsp;&nbsp;&nbsp;:</span>
 					<input type="text" class="form-control" name="rdSex" placeholder="性别" />
 				</div>
-				<div class="form-group">
+				<div class="col-sm-3">
 					<span>密码&nbsp;&nbsp;&nbsp;&nbsp;:</span>
 					<input type="text" class="form-control" name="rdPwd" placeholder="密码" />
 				</div>
-				<div class="form-group">
+				<div class="col-sm-3">
 					<span>读者类别:</span>
 					<select class="form-control" name="rdType">
 						<option value="0">教师</option>
 						<option value="1">学生</option>
 					</select>
 				</div>
-				<div class="form-group">
+				<div class="col-sm-3">
 					<span>单位名称:</span>
 					<input type="text" class="form-control" name="rdDept" placeholder="单位名称"/>
 				</div>
-				<div class="form-group">
+				<div class="col-sm-3">
 					<span>电话号码:</span>
 					<input type="text" class="form-control" name="rdPhone" placeholder="电话号码"/>
 				</div>
-				<div class="form-group">
+				<div class="col-sm-3">
 					<span>电子邮箱:</span>
 					<input type="text" class="form-control" name="rdEmail" placeholder="邮箱"/>
 				</div>
-				<div class="form-group">
+				<div class="col-sm-3">
 					<span>证件状态:</span>
 					<select class="form-control" name="rdStatus">
 						<option value="有效">有效</option>
@@ -86,7 +86,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 						<option value="注销">注销</option>
 					</select>
 				</div>
-				<div class="form-group">
+				<div class="col-sm-3">
 					<span>管理角色:</span>
 					<select class="form-control" name="rdAdminRoles">
 						<option value="SysManager">系统管理员</option>
@@ -95,11 +95,12 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 						<option value="User"> 普通用户</option>
 					</select>
 				</div>
-				<div class="form-group">
+				<div class="col-sm-3">
 					<span>用户照片:</span>
 					<input type="file" class="form-control " name="filePhoto" />
 				</div>
-				<div class="form-group">
+				<div class="col-sm-3">
+					<span>&nbsp;</span>
 					<input type="submit" class="form-control btn btn-danger" value="Submit" />
 				</div>
 			</form>
@@ -108,7 +109,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			<hr/>
 		</div>
 		<div class="row">
-		<table class="table table-striped table-hover ">
+		<table class="table col-sm-12 table-striped table-hover ">
 			<thead class="bg-danger">
 				<td>用户名</td>
 				<td>姓名</td>
