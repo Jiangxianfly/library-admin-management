@@ -19,7 +19,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			.row {
 				margin-left: 15px;
 					}
-
 			span {
 				font-family: 'microsoft YaHei';
 				font-size: 18px;
