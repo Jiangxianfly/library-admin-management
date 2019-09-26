@@ -27,7 +27,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <div class="row">
 	<div class="row">
 		<span>
-		<h1>设置用户权限：</h1>
+		<h1>设置用户权限</h1>
 		</span>
 		<hr/>
 	</div>

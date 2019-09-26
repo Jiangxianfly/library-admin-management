@@ -19,7 +19,6 @@ public class HandleException  implements  HandlerExceptionResolver{
 	public ModelAndView resolveException(HttpServletRequest request, HttpServletResponse reponse, Object object,
 			Exception ex) {
 		// TODO Auto-generated method stub
-		
 		ModelAndView mv=new ModelAndView();
 		if(ex instanceof UnauthorizedException)
 		{

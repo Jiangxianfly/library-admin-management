@@ -25,11 +25,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 	span {
 			font-family: 'microsoft YaHei';
-			font-size: 18px;
+			font-size: 15px;
 		}
 
 	h1 {
-			font-family: 'microsoft YaHei';
+        font-family: 'microsoft YaHei';
 		}
 	fieldset
 		{
@@ -37,6 +37,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			font-size: 20px;
 			font-style: italic;
 	}
+    .left-arrow{
+        margin-left: 30px;
+    }
 	</style>
 	<script type="text/javascript">
 		function getVal()
@@ -61,7 +64,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				}
 			}
 		}
-		
+
 	</script>
 	<body onload="setVal()">
 	<div class="row">
@@ -71,17 +74,17 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<div class="left-arrow">
 	<form class="form-inline" action="searchBook?start=0" method="post">
 		<div class="form-group">
-			<span>书名</span>
 			<input type="text" class="form-control" name="bkName" placeholder="书名" />
 		</div>
 		<div class="form-group">
 			<input type="submit" class="btn btn-danger" value="搜索" />
-			
+
 		</div>
 	</form>
 	<hr />
 	</div>
-	<div class="row col-sm-1">
+	<div class="row">
+		<div class="col-sm-3">
 		<select class="form-control" name="bkStatus" id="status" onchange="getVal()">
 						<option value="" >全部</option>
 		 				<option value="在馆">在馆</option>
@@ -90,12 +93,15 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		 				<option value="变卖">变卖</option>
 		 				<option value="销毁">销毁</option>
 		</select>
-		<br />
-		<a href="<%=basePath%>/book/exportBook?start=${parameter.start}&bkStatus=${parameter.bkStatus}&bkName=${parameter.bkName}"><span class="glyphicon glyphicon-save"><span>导出Excel表</span></span></a>
+		</div>
+		<div class="col-sm-6">
+		<a class="col-sm-3" href="<%=basePath%>/book/exportBook?start=${parameter.start}&bkStatus=${parameter.bkStatus}&bkName=${parameter.bkName}"><span class="glyphicon glyphicon-save"><span>导出Excel表</span></span></a>
+		</div>
 	</div>
-	<div class="row col-sm-11" >
+	<br/>
+	<div class="row col-sm-14" >
 		<table class="table table-striped table-hover ">
-				<fieldset>BOOK_INFO</fieldset>
+				<fieldset></fieldset>
 				<thead class="bg-danger">
 					<td>图书序号</td>
 					<td>图书编号</td>
@@ -141,7 +147,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				</tbody>
 
 			</table>
-		
+
 		<nav aria-label="...">
 				<ul class="pager">
 					<li>
@@ -157,5 +163,5 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		<hr />
 	</div>
 </body>
-		
+
 </html>

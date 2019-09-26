@@ -20,7 +20,7 @@ import com.chen.PLoveLibrary.parameter.Parameter;
 import com.chen.PLoveLibrary.service.BookClassService;
 
 /**
- * @类 名： BookClassContorller @功能描述： TODO 图书编目控制器 @作者信息： 陈强 @创建时间：
+ * @类 名： BookClassContorller @功能描述： TODO 图书编目控制器 @author: Jiangxf @创建时间：
  *    2018年4月22日下午2:30:29 @修改备注：
  */
 @Controller
@@ -32,8 +32,9 @@ public class BookClassContorller {
 
 	/**
 	 * @Title : comeBookClassJSp
-	 * @功能描述: TODO 进入到图书编目的页面
-	 * @开发者：陈强 @参数： @return
+	 * @desc: TODO 进入到图书编目的页面
+	 * @author: Jiangxf
+	 * @参数： @return
 	 * @返回类型：String
 	 * @throws ：
 	 */
@@ -46,7 +47,7 @@ public class BookClassContorller {
 	/** 
 	   * @Title : InsertBookClass 
 	   * @功能描述: TODO 插入数据
-	   * @开发者：陈强  
+	   * @author: Jiangxf
 	   * @参数： @param bookClass
 	   * @参数： @param br
 	   * @参数： @param model
@@ -57,7 +58,6 @@ public class BookClassContorller {
 	@RequestMapping(value ="/insertBookClass", method = { RequestMethod.POST, RequestMethod.GET })
 	@RequiresPermissions(value={"bookClass:insertBookClass","iterm:all"},logical=Logical.OR)
 	public String InsertBookClass(@Validated BookClass bookClass, BindingResult br, Model model) {
-
 		if (br.hasErrors()) {
 			String Message = null;
 			List<ObjectError> errors = br.getAllErrors();
@@ -74,10 +74,10 @@ public class BookClassContorller {
 	/** 
 	   * @Title : BookClassInfo 
 	   * @功能描述: TODO
-	   * @开发者：Jiangxf
-	   * @参数： @param parameter
-	   * @参数： @param model
-	   * @参数： @return 
+	   * @author: Jiangxf
+	   * @param:parameter
+	   * @param: @param model
+	   * @param ： @return
 	   * @返回类型：String 
 	   * @throws ：
 	   */
@@ -101,7 +101,7 @@ public class BookClassContorller {
 	/** 
 	   * @Title : DeleteBookClass 
 	   * @功能描述: TODO 删除信息
-	   * @开发者：陈强  
+	   * @author: Jiangxf
 	   * @参数： @param bookClass
 	   * @参数： @param ra
 	   * @参数： @param parameter
@@ -120,7 +120,7 @@ public class BookClassContorller {
 	/** 
 	   * @Title : EditBookClass 
 	   * @功能描述: TODO 编辑信息
-	   * @开发者：陈强  
+	   * @author: Jiangxf
 	   * @参数： @param parameter
 	   * @参数： @param ra
 	   * @参数： @return 
@@ -140,7 +140,7 @@ public class BookClassContorller {
 	/** 
 	   * @Title : UpdateBookClass 
 	   * @功能描述: TODO 更新信息
-	   * @开发者：陈强  
+	   * @author: Jiangxf
 	   * @参数： @param parameter
 	   * @参数： @param ra
 	   * @参数： @param bookClass
