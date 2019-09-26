@@ -10,7 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="350367c4-10e6-408b-b7a5-2c51d19ad5da" name="Default Changelist" comment="图书管理系统代码上传Git版本控制">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.settings/.jsdtscope" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
@@ -19,6 +21,7 @@
       <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.container" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.validation.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chen/PLoveLibrary/controller/BookClassContorller.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,19 +63,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chen/PLoveLibrary/controller/BookClassContorller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="136" column="47" selection-start-line="136" selection-start-column="47" selection-end-line="136" selection-end-column="47" />
-              <folding>
-                <element signature="e#1498#1499#0" expanded="true" />
-                <element signature="e#1539#1540#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chen/PLoveLibrary/controller/BookController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="312">
@@ -84,8 +74,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="72">
+              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -93,14 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-              <folding>
-                <element signature="e#6160#6164#0" expanded="true" />
-                <element signature="e#6177#6181#0" expanded="true" />
-                <element signature="e#6440#6444#0" expanded="true" />
-                <element signature="e#6455#6459#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="604">
+              <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -252,6 +236,41 @@
               <item name="PredestinedLoveLibrary" type="b2602c69:ProjectViewProjectNode" />
               <item name="PredestinedLoveLibrary" type="462c0819:PsiDirectoryNode" />
               <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PredestinedLoveLibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PredestinedLoveLibrary" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PredestinedLoveLibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PredestinedLoveLibrary" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PredestinedLoveLibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PredestinedLoveLibrary" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PredestinedLoveLibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PredestinedLoveLibrary" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="PLoveLibrary" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PredestinedLoveLibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PredestinedLoveLibrary" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="PLoveLibrary" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -498,7 +517,7 @@
       <workItem from="1569291676726" duration="229000" />
       <workItem from="1569291927093" duration="23734000" />
       <workItem from="1569378497095" duration="21179000" />
-      <workItem from="1569461804098" duration="2926000" />
+      <workItem from="1569461804098" duration="4394000" />
     </task>
     <task id="LOCAL-00001" summary="图书管理系统代码上传Git版本控制">
       <created>1569402861371</created>
@@ -535,7 +554,21 @@
       <option name="project" value="LOCAL" />
       <updated>1569462950175</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="图书管理系统代码上传Git版本控制">
+      <created>1569464768533</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1569464768533</updated>
+    </task>
+    <task id="LOCAL-00007" summary="图书管理系统代码上传Git版本控制">
+      <created>1569464791587</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1569464791587</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -571,7 +604,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79877000" />
+    <option name="totallyTimeSpent" value="81345000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -584,7 +617,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.18923241" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -610,7 +642,7 @@
       <window_info anchor="bottom" id="Messages" order="12" weight="0.31310943" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.49946696" weight="0.38394794" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="15" sideWeight="0.49946696" visible="true" weight="0.38394794" />
       <window_info anchor="bottom" id="Database Console" order="16" weight="0.3066089" />
       <window_info anchor="bottom" id="JRebel Executor" order="17" />
       <window_info anchor="bottom" id="JRebel Console" order="18" side_tool="true" />
@@ -730,9 +762,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="图书管理系统代码上传Git版本控制" />
     <MESSAGE value="新增项目的数据库（数据+表结构都有）" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增项目的数据库（数据+表结构都有）" />
+    <MESSAGE value="图书管理系统代码上传Git版本控制" />
+    <option name="LAST_COMMIT_MESSAGE" value="图书管理系统代码上传Git版本控制" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1052,21 +1084,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-          <folding>
-            <element signature="e#6160#6164#0" expanded="true" />
-            <element signature="e#6177#6181#0" expanded="true" />
-            <element signature="e#6440#6444#0" expanded="true" />
-            <element signature="e#6455#6459#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="604">
+          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="72">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
         </state>
       </provider>
     </entry>
