@@ -74,7 +74,7 @@ public class BookClassContorller {
 	/** 
 	   * @Title : BookClassInfo 
 	   * @功能描述: TODO
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param parameter
 	   * @参数： @param model
 	   * @参数： @return 
