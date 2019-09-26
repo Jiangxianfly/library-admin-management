@@ -77,7 +77,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			<h3>信息展示</h3>
 			</div>
 		<table class="table table-striped table-hover ">
-			<thead>
+			<thead class="bg-danger">
 				<td>类型</td>
 				<td>名称</td>
 				<td>可借书的数量</td>

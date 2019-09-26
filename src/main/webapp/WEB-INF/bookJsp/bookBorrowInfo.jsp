@@ -64,7 +64,7 @@ fieldset {
 </script>
 <body onload="setVal()">
 <div class="row">
-    <span><h1>借阅信息展示：</h1></span>
+    <span><h1>借阅信息展示</h1></span>
     <hr/>
 </div>
 

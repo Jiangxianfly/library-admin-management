@@ -32,17 +32,15 @@
 </style>
 <body>
 <div class="row">
-    <div class="form-group">
+    <div class="form-group col-sm-3">
         <h1>用户权限信息展示</h1>
         <hr/>
     </div>
-    <table class="table table-striped table-hover ">
-        <thead>
+    <table class="table table-striped table-hover col-sm-8 ">
+        <thead class="bg-danger">
         <td>用户名</td>
         <td>角色</td>
-
         <td>操作</td>
-
         </thead>
         <tbody>
         <c:forEach items="${permission }" var="p">
@@ -65,10 +63,10 @@
     <nav aria-label="...">
         <ul class="pager">
             <li>
-                <a href="<%=basePath %>/Userlogin/selectPermission?start=${parameter.start-10}">Previous</a>
+                <a href="<%=basePath %>/Userlogin/selectPermission?start=${parameter.start-10}">上一页</a>
             </li>
             <li>
-                <a href="<%=basePath %>/Userlogin/selectPermission?start=${parameter.start+10}">Next</a>
+                <a href="<%=basePath %>/Userlogin/selectPermission?start=${parameter.start+10}">下一页</a>
             </li>
         </ul>
     </nav>
