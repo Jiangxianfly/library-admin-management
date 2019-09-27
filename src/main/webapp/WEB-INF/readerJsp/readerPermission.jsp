@@ -81,7 +81,7 @@
     </div>
     <div class="col">
     <!-- 设置用户权限-->
-    <div class="row-lg-8">
+    <div class="row-lg">
         <div class="card">
             <div class="card-close">
                 <div class="dropdown">
@@ -120,6 +120,8 @@
         </div>
     </div>
         <br/>
+    <!-- 系统管理员，书籍管理员，一般管理员 -->
+    <div class="statistics row-lg  ">
     <!-- 系统管理员，书籍管理员，前台管理员 -->
     <div class="statistics row-sm-4 ">
         <div class="statistic d-flex align-items-center bg-white has-shadow">
