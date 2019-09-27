@@ -55,7 +55,7 @@
 </div>
 <hr/>
 <div class="row">
-    <span> 提交信息展览：BOOK_INFO</span>
+    <span> 提交信息展览</span>
 </div>
 <br/>
 <div class="row col-md-6">

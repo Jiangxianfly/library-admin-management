@@ -36,8 +36,9 @@
         <h1>用户权限信息展示</h1>
         <hr/>
     </div>
-    <table class="table table-bordered table-hover col-sm-10 ">
-        <thead class="bg-danger">
+    <div class="col-sm-10">
+    <table class="table table-bordered">
+        <thead style='text-align: center;' class="bg-danger">
         <td>用户名</td>
         <td>角色</td>
         <td>操作</td>
@@ -45,19 +46,17 @@
         <tbody>
         <c:forEach items="${permission }" var="p">
             <tr>
-                <td>${p.userName}</td>
-                <td>${p.roleName}</td>
-
-                <td>
+                <td style='text-align: center;'>${p.userName}</td>
+                <td style='text-align: center;'>${p.roleName}</td>
+                <td style='text-align: center;'>
                     <a href="<%=basePath %>/Userlogin/deletePermission?id=${p.id }&start=${parameter.start}"><span
                             class="glyphicon glyphicon-remove"></span></a>
                 </td>
             </tr>
         </c:forEach>
-
-
         </tbody>
     </table>
+    </div>
 </div>
 <div class="row">
     <nav aria-label="...">
