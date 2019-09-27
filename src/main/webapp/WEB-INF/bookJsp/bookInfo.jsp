@@ -68,7 +68,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	</script>
 	<body onload="setVal()">
 	<div class="row">
-		<span><h1>图书信息展示</h1></span>
+		<span><h2>图书信息展示</h2></span>
 		<hr />
 	</div>
 	<div class="left-arrow">

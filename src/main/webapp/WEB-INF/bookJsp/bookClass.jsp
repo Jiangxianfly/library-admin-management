@@ -37,7 +37,7 @@
 </style>
 <body>
 <div class="row">
-    <h1> 图书编目</h1>
+    <h2> 图书编目</h2>
 </div>
 <hr>
 <div class="row">

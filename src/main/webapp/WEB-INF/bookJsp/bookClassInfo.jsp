@@ -42,7 +42,7 @@
 
 <body>
 <div class="row">
-    <h1>信息浏览</h1>
+    <h2>信息浏览</h2>
 </div>
 <hr>
 <span>编辑信息：</span>

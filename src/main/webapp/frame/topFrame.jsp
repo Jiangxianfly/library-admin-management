@@ -37,7 +37,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		<div class="pull-right ">
 			<img class="img-circle" width="30px" height="30px" src="<%=basePath %>${SysReader.rdPhoto}" style="margin-right: 10px;"/>
 			<a href="<%=basePath %>/SysUser/userPWDEdit.jsp" target="mainFrame"><span class="glyphicon glyphicon-cog"></span> 设置</a>
-			<a href="<%=basePath %>/SysUser/userInfo.jsp" target="mainFrame"><span class="glyphicon glyphicon-user"></span>${admin } </a>
+			<a href="<%=basePath %>/SysUser/userInfo.jsp" target="mainFrame"><span class="glyphicon glyphicon-user"></span>&nbsp;${admin}</a>
 			<a target="mainFrame" href="javascript:void(0)" onclick="if(confirm('你确定退出系统?')){top.location.href='<%=basePath %>/Userlogin/logout'; window.location.reload();}"><span class="glyphicon glyphicon-log-out"></span> 退出登录</a>
 
 		</div>

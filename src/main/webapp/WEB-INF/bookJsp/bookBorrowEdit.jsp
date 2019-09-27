@@ -40,7 +40,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	</head>
 	<body>
 		<div class="row">
-			<h1>归还-续借</h1>
+			<h2>归还-续借</h2>
 		<hr />
 		</div>
 		<div class="row">

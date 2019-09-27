@@ -165,10 +165,10 @@
             </ul>
         </details>
         <details class="menu" open>
-            <summary>待拓展部分</summary>
+            <summary>个性化展示</summary>
             <ul>
                 <li>
-                    <a href="<%=basePath %>/Userlogin/selectPermission?start=0" target="mainFrame">拓展节点①</a>
+                    <a href="<%=basePath %>/Userlogin/selectPermission?start=0" target="mainFrame">读者信息</a>
                 </li>
                 <li>
                     <a href="<%=basePath %>/Userlogin/toReaderPermission" target="mainFrame">拓展节点②</a>

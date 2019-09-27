@@ -44,7 +44,7 @@ h1 {
 </script>    
 	<body>
 		<div class="row">
-			<h1>图书信息录入</h1>
+			<h2>图书信息录入</h2>
 			<hr />
 		</div>
 		 <div class="row col-md-3">

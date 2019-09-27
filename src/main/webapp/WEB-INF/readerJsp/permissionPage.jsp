@@ -33,7 +33,7 @@
 <body>
 <div class="row">
     <div class="form-group col-sm-3">
-        <h1>用户权限信息展示</h1>
+        <h2>用户权限信息展示</h2>
         <hr/>
     </div>
     <div class="col-sm-10">
