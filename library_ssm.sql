@@ -2,15 +2,15 @@
 Navicat MySQL Data Transfer
 
 Source Server         : localhost
-Source Server Version : 50717
+Source Server Version : 80017
 Source Host           : localhost:3306
 Source Database       : library_ssm
 
 Target Server Type    : MYSQL
-Target Server Version : 50717
+Target Server Version : 80017
 File Encoding         : 65001
 
-Date: 2019-01-15 11:04:32
+Date: 2019-09-26 15:51:44
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -147,7 +147,7 @@ CREATE TABLE `sys_user` (
 -- ----------------------------
 -- Records of sys_user
 -- ----------------------------
-INSERT INTO `sys_user` VALUES ('1', '201503396', '1234', '2018-04-15', 'upload/313560.jpg');
+INSERT INTO `sys_user` VALUES ('1', '201503396', '1234', '2018-04-15', 'upload/jiangxf.jpg');
 INSERT INTO `sys_user` VALUES ('4', '201503395', '1234', '2018-04-27', 'upload/313593.jpg');
 INSERT INTO `sys_user` VALUES ('5', '201503394', '1234', '2018-04-27', 'upload/312229.jpg');
 
@@ -177,8 +177,9 @@ CREATE TABLE `tb_book` (
 -- ----------------------------
 -- Records of tb_book
 -- ----------------------------
-INSERT INTO `tb_book` VALUES ('0001', '12345', '计算机科学与技术', '陈强', '长江大学', '2018-04-05', '123456', 'TP', '日文', null, '65.5', '2018-04-19', '计算机', 'upload/book/111.jpg', '在馆');
+INSERT INTO `tb_book` VALUES ('0001', '12345', '计算机科学与技术', '蒋贤飞', '长江大学', '2018-04-05', '123456', 'TP', '日文', null, '65.5', '2018-04-19', '计算机', 'upload/book/111.jpg', '在馆');
 INSERT INTO `tb_book` VALUES ('2', '2', '2', '2', '2', '2018-04-26', '2', 'TP', '中文', '85', '2', '2018-04-28', '2', 'upload/book/301041.jpg', '在馆');
+INSERT INTO `tb_book` VALUES ('3', '3', '3', '3', '3', '2019-12-30', '3', '5', '中文', '0', '3', '2019-08-27', '测试', 'upload/book/empty.jpg', '在馆');
 
 -- ----------------------------
 -- Table structure for tb_bookclass
@@ -193,7 +194,28 @@ CREATE TABLE `tb_bookclass` (
 -- ----------------------------
 -- Records of tb_bookclass
 -- ----------------------------
-INSERT INTO `tb_bookclass` VALUES ('TP', '自动化技术');
+INSERT INTO `tb_bookclass` VALUES ('23ewd', '测试类目');
+INSERT INTO `tb_bookclass` VALUES ('3', '哈哈哈');
+INSERT INTO `tb_bookclass` VALUES ('TA', '哲学');
+INSERT INTO `tb_bookclass` VALUES ('TB', '社会科学总论');
+INSERT INTO `tb_bookclass` VALUES ('TC', '军事');
+INSERT INTO `tb_bookclass` VALUES ('TD', '经济');
+INSERT INTO `tb_bookclass` VALUES ('TE', '地理');
+INSERT INTO `tb_bookclass` VALUES ('TF', '自然科学总论');
+INSERT INTO `tb_bookclass` VALUES ('TG', '生物科学');
+INSERT INTO `tb_bookclass` VALUES ('TH', '政治');
+INSERT INTO `tb_bookclass` VALUES ('TI', '卫生');
+INSERT INTO `tb_bookclass` VALUES ('TL', '综合性图书');
+INSERT INTO `tb_bookclass` VALUES ('TM', '农业科学');
+INSERT INTO `tb_bookclass` VALUES ('TN', '空间物理');
+INSERT INTO `tb_bookclass` VALUES ('TO', '数理科学和化学');
+INSERT INTO `tb_bookclass` VALUES ('TP', '天文学');
+INSERT INTO `tb_bookclass` VALUES ('TP9', '自动化');
+INSERT INTO `tb_bookclass` VALUES ('TQ', '机械设计');
+INSERT INTO `tb_bookclass` VALUES ('TW', '工业技术');
+INSERT INTO `tb_bookclass` VALUES ('TX', '交通运输');
+INSERT INTO `tb_bookclass` VALUES ('TY', '航空');
+INSERT INTO `tb_bookclass` VALUES ('TZ', '环境科学');
 
 -- ----------------------------
 -- Table structure for tb_borrow
@@ -251,9 +273,9 @@ CREATE TABLE `tb_reader` (
 -- ----------------------------
 -- Records of tb_reader
 -- ----------------------------
-INSERT INTO `tb_reader` VALUES ('201503394', '陈悦', '女', '0', '长江大学', '13677203517', '1402583417@qq.com', '2018-04-27', 'upload/312229.jpg', '有效', '0', '1234', 'Manager');
+INSERT INTO `tb_reader` VALUES ('201503394', '蒋贤飞', '男', '0', '长江大学', '13677203517', '1402583417@qq.com', '2018-04-27', 'upload/312229.jpg', '有效', '0', '1234', 'Manager');
 INSERT INTO `tb_reader` VALUES ('201503395', '陈真', '男', '0', '长江大学', '13677203517', '1402583417@qq.com', '2018-04-27', 'upload/313593.jpg', '有效', '0', '1234', 'BookManager');
-INSERT INTO `tb_reader` VALUES ('201503396', '陈强', '男', '0', '长江大学', '13677203517', '1402583417@qq.com', '2018-04-17', 'upload/313560.jpg', '有效', '0', '1234', 'SysManager');
+INSERT INTO `tb_reader` VALUES ('201503396', '陈强', '男', '0', '长江大学', '13677203517', '1402583417@qq.com', '2019-09-23', 'upload/jiangxf.jpg', '有效', '0', '1234', 'SysManager');
 
 -- ----------------------------
 -- Table structure for tb_readertype
