@@ -9,7 +9,51 @@ import java.util.Date;
  * @创建时间： 2018年4月19日上午10:16:52
  * @修改备注：
  */
+
 public class Parameter {
+    //用户id
+    private int id;
+    //用户姓名
+    private String name;
+
+    public String getPhoto() {
+        return photo;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setPhoto(String photo) {
+        this.photo = photo;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+
+    public Date getDate() {
+        return date;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
+    }
+
+
+    //用户注册日期
+    private Date date;
+    //用户头像
+    private String photo;
     private String rdID;
     private int start;
     private int end;

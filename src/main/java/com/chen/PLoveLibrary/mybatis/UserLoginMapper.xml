@@ -42,6 +42,9 @@
 		select * from tb_reader where rdID=#{id}
 	</select>
 	<!--  -->
+	<select id="selectAllSysUser" resultType="com.chen.PLoveLibrary.domain.SysUser">
+		select * from sys_user;
+	</select>
 	<!-- 权限设置 -->
 	<insert id="insertPermission" parameterType="SysUR">
 		insert into sys_ur(userName,roleName) select #{userName},#{roleName} from DUAL where EXISTS( select name from sys_user where name=#{userName})
@@ -72,6 +75,14 @@
     		</if>
 		</where>
 	</delete>
+
+	<!-- 满足一些情况的查询 -->
+	<select id="getCounts" parameterType="Parameter" resultType="int">
+		select count(*) from sys_user
+		<if test="id!=null and id!=''">
+			where id=#{id}
+		</if>
+	</select>
 	
 	
 </mapper>

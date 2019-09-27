@@ -41,6 +41,7 @@ public class UserLoginController {
     @Autowired
     private UserRealm userRealm;
 
+
     /**
      * @throws IOException
      * @throws ServletException
@@ -126,7 +127,7 @@ public class UserLoginController {
      */
     @RequestMapping(value = "/pwdEdit", method = RequestMethod.POST)
     public String passwordEdit(SysUser user) throws Exception {
-        int i ;
+        int i;
         user.setDate(new Date());
         i = userLoginMapper.updatepwdByName(user);
         userLoginMapper.updatePwd(user);
@@ -144,16 +145,28 @@ public class UserLoginController {
     // ********************************************************
 
     /**
-     * @throws ：
-     * @Title : comePermission
-     * @功能描述: TODO 进入权限注册界面
-     * @开发者：陈强
-     * @参数： @return
-     * @返回类型：String
+     * @desc TODO 跳转到读者（用户）权限设置页面
+     * @author Jiangxf
+     * @param model
+     * @param parameter
+     * @date 2019/9/27
+     * @return
      */
     @RequestMapping("toReaderPermission")
     @RequiresPermissions(value = {"permission:toReaderPermission", "iterm:all"}, logical = Logical.OR)
-    public String comePermission() {
+    public String comePermission(Model model,Parameter parameter) {
+        //分页获取系统用户信息列表
+        //获取一共有几条记录
+        int count=userLoginMapper.getCounts(parameter);
+        int start=parameter.getStart();
+        if(start<0) start=0;
+        if(start>count)start-=10;
+        int end=start+10;
+        parameter.setStart(start);
+        parameter.setEnd(end);
+        List<SysUser> sysUserList=userLoginMapper.selectAllSysUser();
+        model.addAttribute("sysUserList",sysUserList);
+        model.addAttribute("start", start);
         return "WEB-INF/readerJsp/readerPermission";
     }
 

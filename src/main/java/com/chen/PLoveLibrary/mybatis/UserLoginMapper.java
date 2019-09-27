@@ -125,4 +125,13 @@ public interface UserLoginMapper {
 	   * @throws ：
 	   */
 	public int getCountsPermission();
+	/**
+	 * @Title : selectAllSysUser
+	 * @desc: TODO 获取系统用户信息
+	 * @author：Jiangxf
+	 * @param
+	 */
+	List<SysUser> selectAllSysUser();
+
+	int getCounts(Parameter parameter);
 }

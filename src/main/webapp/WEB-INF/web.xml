@@ -41,6 +41,11 @@
         <servlet-name>default</servlet-name>
         <url-pattern>*.jpg</url-pattern>
     </servlet-mapping>
+    <!-- woff -->
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.woff</url-pattern>
+    </servlet-mapping>
     <!-- ico -->
     <servlet-mapping>
         <servlet-name>default</servlet-name>

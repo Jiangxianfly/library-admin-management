@@ -33,6 +33,7 @@
 				/img/**=anon
 				/upload/**=anon
 				/css/Login.css=anon
+				/css/**=anon
 				/Userlogin/identity=anon
 				/Userlogin/logout=logout
 				/**=authc
