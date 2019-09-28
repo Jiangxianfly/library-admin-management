@@ -3,6 +3,7 @@ package com.chen.PLoveLibrary.controller;
 import com.chen.PLoveLibrary.domain.Reader;
 import com.chen.PLoveLibrary.domain.SysUR;
 import com.chen.PLoveLibrary.domain.SysUser;
+import com.chen.PLoveLibrary.mybatis.SysurpMapper;
 import com.chen.PLoveLibrary.mybatis.UserLoginMapper;
 import com.chen.PLoveLibrary.parameter.Parameter;
 import com.chen.PLoveLibrary.realm.UserRealm;
@@ -23,7 +24,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 
 /**
@@ -40,6 +43,8 @@ public class UserLoginController {
     private UserLoginMapper userLoginMapper;
     @Autowired
     private UserRealm userRealm;
+    @Autowired
+    private SysurpMapper sysurpMapper;
 
 
     /**
@@ -165,6 +170,12 @@ public class UserLoginController {
         parameter.setStart(start);
         parameter.setEnd(end);
         List<SysUser> sysUserList=userLoginMapper.selectAllSysUser();
+        //获取系统各种管理员的个数
+        Map<String,Integer> map=new HashMap<>();
+        map.put("sysManagerNum",sysurpMapper.getSysManagerNum());
+        map.put("managerNum",sysurpMapper.getManagerNum());
+        map.put("bookManagerNum",sysurpMapper.getBookManagerNum());
+        model.addAllAttributes(map);
         model.addAttribute("sysUserList",sysUserList);
         model.addAttribute("start", start);
         return "WEB-INF/readerJsp/readerPermission";

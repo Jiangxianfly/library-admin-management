@@ -124,19 +124,19 @@
     <div class="statistics row-sm-4 ">
         <div class="statistic d-flex align-items-center bg-white has-shadow">
             <div class="icon bg-red"><i class="fa fa-tasks"></i></div>
-            <div class="text"><strong>234</strong><br>
+            <div class="text"><strong>${sysManagerNum}</strong><br>
                 <small>系统管理员</small>
             </div>
         </div>
         <div class="statistic d-flex align-items-center bg-white has-shadow">
             <div class="icon bg-green"><i class="fa fa-calendar-o"></i></div>
-            <div class="text"><strong>152</strong><br>
+            <div class="text"><strong>${bookManagerNum}</strong><br>
                 <small>书籍管理员</small>
             </div>
         </div>
         <div class="statistic d-flex align-items-center bg-white has-shadow">
             <div class="icon bg-orange"><i class="fa fa-paper-plane-o"></i></div>
-            <div class="text"><strong>147</strong><br>
+            <div class="text"><strong>${managerNum}</strong><br>
                 <small>普通管理员</small>
             </div>
         </div>

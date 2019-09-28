@@ -6,7 +6,17 @@ import com.chen.PLoveLibrary.domain.SysPermission;
 import com.chen.PLoveLibrary.domain.SysRole;
 
 public interface SysurpMapper {
-	public List<SysRole> getRole(String rdID);
-	public List<SysPermission>getPermission(String roleName);
+
+	List<SysRole> getRole(String rdID);
+
+	List<SysPermission>getPermission(String roleName);
+
+	int getSysManagerNum();
+
+	int getManagerNum();
+
+	int getBookManagerNum();
+
+
 
 }
