@@ -120,7 +120,7 @@
         </div>
     </div>
         <br/>
-    <!-- 系统管理员，书籍管理员，一般管理员 -->
+    <!-- 系统管理员，书籍管理员，前台管理员 -->
     <div class="statistics row-sm-4 ">
         <div class="statistic d-flex align-items-center bg-white has-shadow">
             <div class="icon bg-red"><i class="fa fa-tasks"></i></div>
@@ -137,7 +137,7 @@
         <div class="statistic d-flex align-items-center bg-white has-shadow">
             <div class="icon bg-orange"><i class="fa fa-paper-plane-o"></i></div>
             <div class="text"><strong>${managerNum}</strong><br>
-                <small>普通管理员</small>
+                <small>前台管理员</small>
             </div>
         </div>
     </div>

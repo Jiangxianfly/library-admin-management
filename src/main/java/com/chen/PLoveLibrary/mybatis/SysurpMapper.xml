@@ -21,7 +21,7 @@
 	<select id="getBookManagerNum"  resultType="java.lang.Integer">
         select count(1) from sys_ur where roleName='BookManager'
 	</select>
-	<!--查询普通管理员（Manager)的个数-->
+	<!--查询前台管理员（Manager)的个数-->
 	<select id="getManagerNum"  resultType="java.lang.Integer">
         select count(1) from sys_ur where roleName="Manager"
 	</select>

@@ -39,7 +39,7 @@ public class SysUserService {
         return this.sysurpMapper.getBookManagerNum();
     }
 
-    //获取普通管理员（Manager)的个数
+    //获取前台管理员（Manager)的个数
     @Transactional(propagation = Propagation.REQUIRED, readOnly = true)
     public int getManagerNum() {
         return this.sysurpMapper.getManagerNum();
