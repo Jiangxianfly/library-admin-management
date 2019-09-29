@@ -80,14 +80,14 @@
             list-style: none;
             text-indent: 25px;
             font-size: 12px;
-            height: 30px;
+            height: 25px;
             line-height: 30px;
-            border-bottom: 1px solid #F00
+            border-bottom: 1px solid #474540
         }
 
         .menu ul li a {
             display: block;
-            color: #FFF;
+            color: #b5ff90;
             background-color: #474540
         }
 
@@ -161,17 +161,6 @@
                 </li>
                 <li>
                     <a href="<%=basePath %>/Userlogin/toReaderPermission" target="mainFrame">用户权限</a>
-                </li>
-            </ul>
-        </details>
-        <details class="menu" open>
-            <summary>个性化展示</summary>
-            <ul>
-                <li>
-                    <a href="<%=basePath %>/Userlogin/selectPermission?start=0" target="mainFrame">读者信息</a>
-                </li>
-                <li>
-                    <a href="<%=basePath %>/Userlogin/toReaderPermission" target="mainFrame">拓展节点②</a>
                 </li>
             </ul>
         </details>
