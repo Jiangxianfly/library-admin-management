@@ -87,7 +87,7 @@
 
         .menu ul li a {
             display: block;
-            color: #b5ff90;
+            color: #FFF;
             background-color: #474540
         }
 
