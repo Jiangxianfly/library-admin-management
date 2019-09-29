@@ -15,7 +15,7 @@ import com.chen.PLoveLibrary.parameter.Parameter;
 /**
  * @类 名： ReaderService
  * @功能描述： TODO 服务层   读者信息服务层
- * @作者信息： 陈强
+ * @作者信息： Jiangxf
  * @创建时间： 2018年4月17日上午9:48:48
  * @修改备注：
  */

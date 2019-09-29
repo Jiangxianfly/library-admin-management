@@ -23,13 +23,13 @@ import com.chen.PLoveLibrary.mybatis.UserLoginMapper;
 
 /**
  * @类 名： UserRealm @功能描述： TODO 自定义realm，权限和登录校验，继承AuthorizingRealm @作者信息：
- * 陈强 @创建时间： 2018年4月14日下午7:45:05 @修改备注：
+ * Jiangxf @创建时间： 2018年4月14日下午7:45:05 @修改备注：
  */
 
 /**
  * @类 名： UserRealm
  * @功能描述： TODO
- * @作者信息： 陈强
+ * @作者信息： Jiangxf
  * @创建时间： 2018年4月22日上午11:04:24
  * @修改备注：
  */
@@ -113,7 +113,7 @@ public class UserRealm extends AuthorizingRealm {
     /**
      * @Title : clearCached
      * @功能描述: TODO 清除缓存
-     * @开发者：陈强
+     * @开发者：Jiangxf
      * @参数：
      * @返回类型：void
      * @throws ：

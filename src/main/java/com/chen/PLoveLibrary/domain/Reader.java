@@ -11,7 +11,7 @@ import org.hibernate.validator.constraints.NotBlank;
 /**
    * @类 名： Reader
    * @功能描述： TODO 借书证办理的读者信息
-   * @作者信息： 陈强
+   * @作者信息： Jiangxf
    * @创建时间： 2018年4月16日下午2:58:01
    * @修改备注：
    */

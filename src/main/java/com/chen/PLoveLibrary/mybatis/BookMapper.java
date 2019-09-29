@@ -8,7 +8,7 @@ import com.chen.PLoveLibrary.parameter.Parameter;
 /**
    * @类 名： BookMapper
    * @功能描述： TODO 图书接口
-   * @作者信息： 陈强
+   * @作者信息： Jiangxf
    * @创建时间： 2018年4月24日下午8:17:00
    * @修改备注：
    */

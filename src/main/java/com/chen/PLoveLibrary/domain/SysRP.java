@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
    * @类 名： SysRP
    * @功能描述： TODO 角色和权限
-   * @作者信息： 陈强
+   * @作者信息： Jiangxf
    * @创建时间： 2018年4月21日下午9:29:20
    * @修改备注：
    */

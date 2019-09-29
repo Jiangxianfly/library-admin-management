@@ -14,7 +14,7 @@ import com.chen.PLoveLibrary.parameter.Parameter;
 /**
    * @类 名： BookService
    * @功能描述： TODO 图书管理服务层
-   * @作者信息： 陈强
+   * @作者信息： Jiangxf
    * @创建时间： 2018年4月24日下午8:26:03
    * @修改备注：
    */

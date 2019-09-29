@@ -18,12 +18,12 @@ import com.sun.image.codec.jpeg.JPEGImageEncoder;
 /**
    * @类 名： IdentityCode（工具类）
    * @功能描述： 登陆界面的验证码功能
-   * @作者信息： 陈强
+   * @作者信息： Jiangxf
    * @创建时间： 2018年4月14日下午3:34:22
    * @修改备注：
    */
 /**
- * @类 名： IdentityCode @功能描述： TODO @作者信息： 陈强 @创建时间： 2018年4月14日下午3:46:04 @修改备注：
+ * @类 名： IdentityCode @功能描述： TODO @作者信息： Jiangxf @创建时间： 2018年4月14日下午3:46:04 @修改备注：
  */
 @SuppressWarnings("restriction")
 public class IdentityCode {
@@ -39,7 +39,7 @@ public class IdentityCode {
 	/**
 	 * @Title : getRandomString
 	 * @功能描述: TODO 获取验证码在页面显示的六个数
-	 * @开发者：陈强 @参数： @return
+	 * @开发者：Jiangxf @参数： @return
 	 * @返回类型：String
 	 * @throws ：
 	 */
@@ -54,7 +54,7 @@ public class IdentityCode {
 	/**
 	 * @Title : getRandomColor
 	 * @功能描述: TODO 得到背景色
-	 * @开发者：陈强 @参数： @return
+	 * @开发者：Jiangxf @参数： @return
 	 * @返回类型：Color
 	 * @throws ：
 	 */
@@ -65,7 +65,7 @@ public class IdentityCode {
 	/** 
 	   * @Title : getReverseColor 
 	   * @功能描述: TODO 得到验证码的前景色
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param c
 	   * @参数： @return 
 	   * @返回类型：Color 
@@ -78,7 +78,7 @@ public class IdentityCode {
 	/** 
 	   * @Title : outputIdentity 
 	   * @功能描述: TODO 生成验证码的图片，并在session中存储验证码的值
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param request
 	   * @参数： @param response
 	   * @参数： @throws ServletException

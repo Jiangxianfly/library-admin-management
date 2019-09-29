@@ -10,7 +10,7 @@ import org.springframework.web.servlet.ModelAndView;
 /**
    * @类 名： HandleException
    * @功能描述： TODO 全局异常处理
-   * @作者信息： 陈强
+   * @作者信息： Jiangxf
    * @创建时间： 2018年4月14日下午10:35:48
    * @修改备注：
    */

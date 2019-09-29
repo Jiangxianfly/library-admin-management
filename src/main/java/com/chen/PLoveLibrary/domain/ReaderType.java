@@ -9,7 +9,7 @@ import org.hibernate.validator.constraints.NotBlank;
 /**
    * @类 名： ReaderType
    * @功能描述： TODO 读者的类别，这个只有系统管理员才有的操作；该类别里包括了不同读者在图书馆里借书的限制
-   * @作者信息： 陈强
+   * @作者信息： Jiangxf
    * @创建时间： 2018年4月18日上午10:25:36
    * @修改备注：
    */

@@ -42,7 +42,7 @@ import com.chen.PLoveLibrary.util.ExportExcelUtil;
 /**
    * @类 名： ReaderController
    * @功能描述： TODO 读者管理的控制器
-   * @作者信息： 陈强
+   * @作者信息： Jiangxf
    * @创建时间： 2018年4月16日下午3:07:18
    * @修改备注：
    */
@@ -58,7 +58,7 @@ public class ReaderController {
 	/** 
 	   * @Title : comeReader 
 	   * @功能描述: TODO 进入读者信息录入界面
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @return 
 	   * @返回类型：String 
 	   * @throws ：
@@ -73,7 +73,7 @@ public class ReaderController {
 	/** 
 	   * @Title : ReaderLoad 
 	   * @功能描述: TODO
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param reader
 	   * @参数： @param br
 	   * @参数： @param file
@@ -137,7 +137,7 @@ public class ReaderController {
 	/** 
 	   * @Title : FindReader 
 	   * @功能描述: TODO 查找reader信息实现数据库的分页。
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param start
 	   * @参数： @param model
 	   * @参数： @return 
@@ -165,7 +165,7 @@ public class ReaderController {
 	/** 
 	   * @Title : DeleteReader 
 	   * @功能描述: TODO 删除用户的信息，在重定向页面
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param rdID
 	   * @参数： @param start
 	   * @参数： @param model
@@ -189,7 +189,7 @@ public class ReaderController {
 	/** 
 	   * @Title : EditReader 
 	   * @功能描述: TODO 读者信息编辑  跳转到读者信息注册界面
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param model
 	   * @参数： @param rdID  用户名
 	   * @参数： @return 
@@ -208,7 +208,7 @@ public class ReaderController {
 	/** 
 	   * @Title : UpdateReader 
 	   * @功能描述: TODO 编辑读者信息
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param reader 读者类
 	   * @参数： @param file 文件上传
 	   * @参数： @param ra 重定向
@@ -270,7 +270,7 @@ public class ReaderController {
 	/** 
 	   * @Title : SearchReader 
 	   * @功能描述: TODO 查找指定的用户
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param rdID
 	   * @参数： @param model
 	   * @参数： @return 
@@ -289,7 +289,7 @@ public class ReaderController {
 	/** 
 	   * @Title : ExportExcel 
 	   * @功能描述: TODO 将数据导出
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param parameter
 	   * @参数： @param request
 	   * @参数： @param response
@@ -351,7 +351,7 @@ public class ReaderController {
 	/** 
 	   * @Title : findStatusByrdID 
 	   * @功能描述: TODO 找到证件当前的状态
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param rdID
 	   * @参数： @param model
 	   * @参数： @return 
@@ -371,7 +371,7 @@ public class ReaderController {
 	/** 
 	   * @Title : updateStatus 
 	   * @功能描述: TODO 更改证件的状态
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param reader
 	   * @参数： @return 
 	   * @返回类型：String 

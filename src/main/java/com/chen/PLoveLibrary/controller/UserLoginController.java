@@ -32,7 +32,7 @@ import java.util.Map;
 /**
  * @类 名： UserLoginController
  * @功能描述： TODO 该类的作用主要是处理用户登陆，密码修改，信息维护，登陆验证等功能的一个controller的类
- * @作者信息： 陈强
+ * @作者信息： Jiangxf
  * @创建时间： 2018年4月14日下午3:55:37
  * @修改备注：
  */
@@ -52,7 +52,7 @@ public class UserLoginController {
      * @throws ServletException
      * @Title : createIdentity
      * @功能描述: TODO 产生验证码
-     * @开发者：陈强
+     * @开发者：Jiangxf
      * @参数：
      * @返回类型：void
      */
@@ -65,7 +65,7 @@ public class UserLoginController {
      * @throws ：
      * @Title : Login
      * @功能描述: TODO 登陆验证
-     * @开发者：陈强
+     * @开发者：Jiangxf
      * @参数： @param request
      * @参数： @param response
      * @参数： @param user
@@ -97,7 +97,7 @@ public class UserLoginController {
      * @throws ：
      * @Title : logOut
      * @功能描述: TODO 用户注销登陆
-     * @开发者：陈强
+     * @开发者：Jiangxf
      * @参数： @return
      * @返回类型：String
      */
@@ -111,7 +111,7 @@ public class UserLoginController {
      * @throws ：
      * @Title : login
      * @功能描述: TODO 返回后台登陆界面
-     * @开发者：陈强
+     * @开发者：Jiangxf
      * @参数： @return
      * @返回类型：String
      */
@@ -125,7 +125,7 @@ public class UserLoginController {
      * @throws ：
      * @Title : passwordEdit
      * @功能描述: TODO 用户修改密码
-     * @开发者：陈强
+     * @开发者：Jiangxf
      * @参数： @param user
      * @参数： @return
      * @返回类型：String
@@ -185,7 +185,7 @@ public class UserLoginController {
      * @throws ：
      * @Title : InsertPermission
      * @功能描述: TODO 插入权限
-     * @开发者：陈强
+     * @开发者：Jiangxf
      * @参数： @param sysUR
      * @参数： @return
      * @返回类型：String
@@ -201,7 +201,7 @@ public class UserLoginController {
      * @throws ：
      * @Title : selectPermission
      * @功能描述: TODO 遍历信息
-     * @开发者：陈强
+     * @开发者：Jiangxf
      * @参数： @param parameter
      * @参数： @param model
      * @参数： @return

@@ -9,7 +9,7 @@ public interface ReaderTypeMapper {
 	/** 
 	   * @Title : insertReaderType 
 	   * @功能描述: TODO 读者类别注册
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param id
 	   * @参数： @return 
 	   * @返回类型：int 
@@ -19,7 +19,7 @@ public interface ReaderTypeMapper {
 	/** 
 	   * @Title : findReaderTypeByID 
 	   * @功能描述: TODO 根据id查找信息
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param id
 	   * @参数： @return 
 	   * @返回类型：ReaderType 
@@ -29,7 +29,7 @@ public interface ReaderTypeMapper {
 	/** 
 	   * @Title : deleteReaderTypeByID 
 	   * @功能描述: TODO 根据id删除信息
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param id
 	   * @参数： @return 
 	   * @返回类型：int 
@@ -39,7 +39,7 @@ public interface ReaderTypeMapper {
 	/** 
 	   * @Title : updateReaderType 
 	   * @功能描述: TODO 更新数据
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param readerType
 	   * @参数： @return 
 	   * @返回类型：int 
@@ -49,7 +49,7 @@ public interface ReaderTypeMapper {
 	/** 
 	   * @Title : searchReaderType 
 	   * @功能描述: TODO 分页查找
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param map
 	   * @参数： @return 
 	   * @返回类型：List<ReaderType> 
@@ -60,7 +60,7 @@ public interface ReaderTypeMapper {
 	/** 
 	   * @Title : findCountsReaderType 
 	   * @功能描述: TODO 得到总记录的个数
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @return 
 	   * @返回类型：int 
 	   * @throws ：

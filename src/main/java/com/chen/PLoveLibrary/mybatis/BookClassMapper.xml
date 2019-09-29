@@ -2,18 +2,18 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.chen.PLoveLibrary.mybatis.BookClassMapper">
-	<!-- 插入图书编目的数据 -->
+	<!-- 插入图书编目-->
 	<insert id="insertBookClass" parameterType="BookClass">
 		insert into
 		tb_BookClass
 		values(#{bkCatalog},#{bkClassName})
 	</insert>
-	<!-- 删除 -->
+	<!-- 根据图书类目编号删除 -->
 	<delete id="deleteBookClassByID" parameterType="BookClass">
 		delete from
 		tb_BookClass where bkCatalog=#{bkCatalog}
 	</delete>
-	<!-- 更新 -->
+	<!-- 更新图书编目序号更新分类名 -->
 	<update id="updateBookClass" parameterType="BookClass">
 		update
 		tb_BookClass

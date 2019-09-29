@@ -38,7 +38,7 @@ import com.chen.PLoveLibrary.util.ExportExcelUtil;
 /**
    * @类 名： BookController
    * @功能描述： TODO 图书控制层
-   * @作者信息： 陈强
+   * @作者信息： Jiangxf
    * @创建时间： 2018年4月24日下午8:33:59
    * @修改备注：
    */
@@ -69,7 +69,7 @@ public class BookController {
 	/** 
 	   * @Title : InsertBook 
 	   * @功能描述: TODO 保存图书信息
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param book
 	   * @参数： @param br
 	   * @参数： @param datePress
@@ -132,7 +132,7 @@ public class BookController {
 	/** 
 	   * @Title : FindBookInfo 
 	   * @功能描述: TODO 图书信息展示
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param parameter url传递的参数
 	   * @参数： @param model
 	   * @参数： @return 
@@ -158,7 +158,7 @@ public class BookController {
 	/** 
 	   * @Title : DeleteBook 
 	   * @功能描述: TODO 删除图书
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param parameter  
 	   * @参数： @param ra
 	   * @参数： @return 
@@ -177,7 +177,7 @@ public class BookController {
 	/** 
 	   * @Title : SearchBook 
 	   * @功能描述: TODO 查找图书
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param parameter
 	   * @参数： @param ra
 	   * @参数： @return 
@@ -196,7 +196,7 @@ public class BookController {
 	/** 
 	   * @Title : EditBook 
 	   * @功能描述: TODO 跳转到图书信息编辑界面
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param parameter
 	   * @参数： @param model
 	   * @参数： @return 
@@ -259,7 +259,7 @@ public class BookController {
 	/** 
 	   * @Title : ExportExcel 
 	   * @功能描述: TODO 导出数据
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param parameter
 	   * @参数： @param request
 	   * @参数： @param response

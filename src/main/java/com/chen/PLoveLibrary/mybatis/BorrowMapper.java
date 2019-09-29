@@ -9,7 +9,7 @@ import com.chen.PLoveLibrary.parameter.Parameter;
 /**
    * @类 名： BorrowMapper
    * @功能描述： TODO 借书接口
-   * @作者信息： 陈强
+   * @作者信息： Jiangxf
    * @创建时间： 2018年4月26日上午10:07:51
    * @修改备注：
    */

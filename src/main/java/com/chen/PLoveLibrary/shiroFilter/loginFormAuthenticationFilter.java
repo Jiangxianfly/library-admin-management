@@ -12,7 +12,7 @@ import org.apache.shiro.web.util.WebUtils;
 /**
    * @类 名： loginFormAuthenticationFilter
    * @功能描述： TODO 解决shiro 登陆成功不跳转到指定的成功页面
-   * @作者信息： 陈强
+   * @作者信息： Jiangxf
    * @创建时间： 2018年4月27日下午3:37:27
    * @修改备注：
    */

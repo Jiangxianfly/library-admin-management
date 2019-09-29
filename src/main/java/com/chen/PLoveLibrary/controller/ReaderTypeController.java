@@ -31,14 +31,14 @@ import com.chen.PLoveLibrary.util.ExportExcelUtil;
 /**
    * @类 名： ReaderTypeController
    * @功能描述： TODO 读者类别控制器
-   * @作者信息： 陈强
+   * @作者信息： Jiangxf
    * @创建时间： 2018年4月18日上午10:35:00
    * @修改备注：
    */
 /**
    * @类 名： ReaderTypeController
    * @功能描述： TODO
-   * @作者信息： 陈强
+   * @作者信息： Jiangxf
    * @创建时间： 2018年4月18日下午5:07:15
    * @修改备注：
    */
@@ -51,7 +51,7 @@ public class ReaderTypeController {
 	/** 
 	   * @Title : InsertReaderType 
 	   * @功能描述: TODO 添加用户类别信息
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param model
 	   * @参数： @param readerType
 	   * @参数： @param br
@@ -87,7 +87,7 @@ public class ReaderTypeController {
 	/** 
 	   * @Title : SearchReaderType 
 	   * @功能描述: TODO 查询所有的读者类型的信息
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param start
 	   * @参数： @param model
 	   * @参数： @return 
@@ -116,7 +116,7 @@ public class ReaderTypeController {
 	/** 
 	   * @Title : EditReaderType 
 	   * @功能描述: TODO  编辑读者类型信息
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param rdType
 	   * @参数： @param start
 	   * @参数： @param model
@@ -136,7 +136,7 @@ public class ReaderTypeController {
 	/** 
 	   * @Title : UpdateReaderType 
 	   * @功能描述: TODO 更新读者类型信息
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param readerType
 	   * @参数： @param br
 	   * @参数： @param model
@@ -168,7 +168,7 @@ public class ReaderTypeController {
 	/** 
 	   * @Title : DeleteReaderType 
 	   * @功能描述: TODO 删除信息
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param rdType
 	   * @参数： @param ra
 	   * @参数： @param start
@@ -188,7 +188,7 @@ public class ReaderTypeController {
 	/** 
 	   * @Title : ExportExcel 
 	   * @功能描述: TODO 将读者类型信息导出
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param rdType
 	   * @参数： @param start
 	   * @参数： @param request

@@ -14,7 +14,7 @@ import com.chen.PLoveLibrary.mybatis.ReaderTypeMapper;
 /**
  * @类 名： ReaderTypeService
  * @功能描述： TODO 读者类别服务层
- * @作者信息： 陈强
+ * @作者信息： Jiangxf
  * @创建时间： 2018年4月18日上午11:17:03
  * @修改备注：
  */

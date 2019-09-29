@@ -25,7 +25,7 @@ import com.chen.PLoveLibrary.service.BorrowService;
 import com.chen.PLoveLibrary.util.DateExchangeUtil;
 
 /**
- * @类 名： BorrowContorller @功能描述： TODO 借书控制器 @作者信息： 陈强 @创建时间：
+ * @类 名： BorrowContorller @功能描述： TODO 借书控制器 @作者信息： Jiangxf @创建时间：
  *    2018年4月26日上午10:47:43 @修改备注：
  */
 @Controller
@@ -38,7 +38,7 @@ public class BorrowContorller {
 	/**
 	 * @Title : comeBorrow
 	 * @功能描述: TODO 来到借书页面
-	 * @开发者：陈强 @参数： @return
+	 * @开发者：Jiangxf @参数： @return
 	 * @返回类型：String
 	 * @throws ：
 	 */
@@ -52,7 +52,7 @@ public class BorrowContorller {
 	 * @throws Exception
 	 * @Title : InsertBorrow
 	 * @功能描述: TODO 插入借阅信息,读者信息表的借阅图书数加1，图书表的图书状态改变成借出
-	 * @开发者：陈强 @参数： @param borrow @参数： @param br @参数： @param model @参数： @param
+	 * @开发者：Jiangxf @参数： @param borrow @参数： @param br @参数： @param model @参数： @param
 	 *         DateOut @参数： @return @参数： @throws ParseException
 	 * @返回类型：String
 	 * @throws ：
@@ -121,7 +121,7 @@ public class BorrowContorller {
 	/** 
 	   * @Title : SelectBorrowInfo 
 	   * @功能描述: TODO 列举所有的信息
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param parameter
 	   * @参数： @param model
 	   * @参数： @return 
@@ -148,7 +148,7 @@ public class BorrowContorller {
 	/** 
 	   * @Title : DeleteBorrow 
 	   * @功能描述: TODO 删除借阅信息，把一切的信息还原
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param parameter
 	   * @参数： @param ra
 	   * @参数： @return 
@@ -178,7 +178,7 @@ public class BorrowContorller {
 	/** 
 	   * @Title : comeBorrowEdit 
 	   * @功能描述: TODO 进入归还和续借的操作页面
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @return 
 	   * @返回类型：String 
 	   * @throws ：
@@ -192,7 +192,7 @@ public class BorrowContorller {
 	/** 
 	   * @Title : BorrowOperator 
 	   * @功能描述: TODO
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param borrow
 	   * @参数： @param br
 	   * @参数： @param model

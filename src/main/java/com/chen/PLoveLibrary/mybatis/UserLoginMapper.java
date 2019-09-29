@@ -10,7 +10,7 @@ import com.chen.PLoveLibrary.parameter.Parameter;
 /**
    * @类 名： UserLoginMapper
    * @功能描述： TODO  用户登陆的接口
-   * @作者信息： 陈强
+   * @作者信息： Jiangxf
    * @创建时间： 2018年4月14日下午8:48:13cc
    * @修改备注：
    */
@@ -19,7 +19,7 @@ public interface UserLoginMapper {
 	/** 
 	   * @Title : findpwdByName 
 	   * @功能描述: TODO 查找密码
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param name 用户名
 	   * @参数： @return 
 	   * @返回类型：String 
@@ -30,7 +30,7 @@ public interface UserLoginMapper {
 	/** 
 	   * @Title : updatepwdByName 
 	   * @功能描述: TODO 更新密码
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param sysUser 
 	   * @返回类型：void 
 	   * @throws ：
@@ -39,7 +39,7 @@ public interface UserLoginMapper {
 	/** 
 	   * @Title : insertSysUser 
 	   * @功能描述: TODO  读者表插入一条信息，则在系统用户表中也要插入一条信息
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param reader
 	   * @参数： @return 
 	   * @返回类型：int 
@@ -49,7 +49,7 @@ public interface UserLoginMapper {
 	/** 
 	   * @Title : updateSysUser 
 	   * @功能描述: TODO 读者表更新，系统表也要更新
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param reader
 	   * @参数： @return 
 	   * @返回类型：int 
@@ -59,7 +59,7 @@ public interface UserLoginMapper {
 	/** 
 	   * @Title : deleteSysUser 
 	   * @功能描述: TODO 读者表删除，系统表也要删除
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param id
 	   * @参数： @return 
 	   * @返回类型：int 
@@ -69,7 +69,7 @@ public interface UserLoginMapper {
 	/** 
 	   * @Title : selectSysUser 
 	   * @功能描述: TODO 查询自己的而用户信息
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param reader
 	   * @参数： @return 
 	   * @返回类型：Reader 
@@ -79,7 +79,7 @@ public interface UserLoginMapper {
 	/** 
 	   * @Title : updatePwd 
 	   * @功能描述: TODO 更新密码
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param user
 	   * @参数： @return 
 	   * @返回类型：int 
@@ -89,7 +89,7 @@ public interface UserLoginMapper {
 	/** 
 	   * @Title : insertPermission 
 	   * @功能描述: TODO
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param sysUR
 	   * @参数： @return 
 	   * @返回类型：int 
@@ -99,7 +99,7 @@ public interface UserLoginMapper {
 	/** 
 	   * @Title : selectPermission 
 	   * @功能描述: TODO
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param parameter
 	   * @参数： @return 
 	   * @返回类型：List<SysUR> 
@@ -109,7 +109,7 @@ public interface UserLoginMapper {
 	/** 
 	   * @Title : deletePermission 
 	   * @功能描述: TODO
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param username
 	   * @参数： @return 
 	   * @返回类型：int 
@@ -119,7 +119,7 @@ public interface UserLoginMapper {
 	/** 
 	   * @Title : getCountsPermission 
 	   * @功能描述: TODO
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @return 
 	   * @返回类型：int 
 	   * @throws ：

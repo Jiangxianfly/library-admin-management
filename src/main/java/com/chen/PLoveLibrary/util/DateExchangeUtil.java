@@ -8,7 +8,7 @@ import java.util.Date;
 /**
    * @类 名： DateExchangeUtil
    * @功能描述： TODO 日期转化工厂 把html5 date类型的如2018/03/04 转换成2018-03-04
-   * @作者信息： 陈强
+   * @作者信息： Jiangxf
    * @创建时间： 2018年4月24日下午8:55:15
    * @修改备注：
    */
@@ -16,7 +16,7 @@ public class DateExchangeUtil {
 	/** 
 	   * @Title : StringToDate 
 	   * @功能描述: TODO  字符串转化为日期
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param str1
 	   * @参数： @return
 	   * @参数： @throws ParseException 
@@ -43,7 +43,7 @@ public class DateExchangeUtil {
 	/** 
 	   * @Title : DateToString 
 	   * @功能描述: TODO 将日期转化为字符串
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param date
 	   * @参数： @return 
 	   * @返回类型：String 
@@ -58,7 +58,7 @@ public class DateExchangeUtil {
 	/** 
 	   * @Title : GetDayFormDate 
 	   * @功能描述: TODO  得到两个时间的相差的天数
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param date1
 	   * @参数： @param date2
 	   * @参数： @return 
@@ -73,7 +73,7 @@ public class DateExchangeUtil {
 	/** 
 	   * @Title : GetDateFromDay 
 	   * @功能描述: TODO 距离多少天后的日期
-	   * @开发者：陈强  
+	   * @开发者：Jiangxf
 	   * @参数： @param date
 	   * @参数： @param day
 	   * @参数： @return 

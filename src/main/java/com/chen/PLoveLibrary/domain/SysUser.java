@@ -6,7 +6,7 @@ import java.util.Date;
 /**
    * @类 名： SysUser
    * @功能描述： TODO 系统用户信息相当于shiro的subject
-   * @作者信息： 陈强
+   * @作者信息： Jiangxf
    * @创建时间： 2018年4月14日下午9:04:39
    * @修改备注：
    */

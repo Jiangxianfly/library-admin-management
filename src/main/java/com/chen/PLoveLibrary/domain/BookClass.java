@@ -7,7 +7,7 @@ import org.hibernate.validator.constraints.NotBlank;
 /**
    * @类 名： BookClass
    * @功能描述： TODO  图书的编目工作
-   * @作者信息： 陈强
+   * @作者信息： Jiangxf
    * @创建时间： 2018年4月22日下午12:40:16
    * @修改备注：
    */

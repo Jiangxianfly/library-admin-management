@@ -9,7 +9,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 /**
    * @类 名： Borrow 
    * @功能描述： TODO 借阅图书的信息
-   * @作者信息： 陈强
+   * @作者信息： Jiangxf
    * @创建时间： 2018年4月25日下午9:44:35
    * @修改备注：
    */
