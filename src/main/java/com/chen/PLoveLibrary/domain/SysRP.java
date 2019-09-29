@@ -1,5 +1,7 @@
 package com.chen.PLoveLibrary.domain;
 
+import lombok.Data;
+
 import java.io.Serializable;
 
 /**
@@ -9,22 +11,10 @@ import java.io.Serializable;
    * @创建时间： 2018年4月21日下午9:29:20
    * @修改备注：
    */
-@SuppressWarnings("serial")
+@Data
 public class SysRP implements Serializable{
 	private String roleName;
 	private String perName;
-	public String getRoleName() {
-		return roleName;
-	}
-	public void setRoleName(String roleName) {
-		this.roleName = roleName;
-	}
-	public String getPerName() {
-		return perName;
-	}
-	public void setPerName(String perName) {
-		this.perName = perName;
-	}
 	
 
 }

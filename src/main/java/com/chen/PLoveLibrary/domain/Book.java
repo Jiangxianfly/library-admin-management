@@ -15,7 +15,6 @@ import org.hibernate.validator.constraints.NotBlank;
    * @创建时间： 2018年4月22日下午9:04:15
    * @修改备注：
    */
-@SuppressWarnings("serial")
 @Data
 public class Book implements Serializable {
 	@NotBlank(message="不能为空")

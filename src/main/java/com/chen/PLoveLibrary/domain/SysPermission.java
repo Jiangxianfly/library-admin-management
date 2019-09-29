@@ -1,5 +1,7 @@
 package com.chen.PLoveLibrary.domain;
 
+import lombok.Data;
+
 import java.io.Serializable;
 
 /**
@@ -9,17 +11,10 @@ import java.io.Serializable;
    * @createtime: 2019/09/26
    * @修改备注：
    */
-@SuppressWarnings("serial")
+@Data
 public class SysPermission implements Serializable{
 	private String perName;
 
-	public String getPerName() {
-		return perName;
-	}
-
-	public void setPerName(String perName) {
-		this.perName = perName;
-	}
 	
 
 }

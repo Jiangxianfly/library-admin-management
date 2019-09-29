@@ -1,5 +1,7 @@
 package com.chen.PLoveLibrary.domain;
 
+import lombok.Data;
+
 import java.io.Serializable;
 
 /**
@@ -9,31 +11,11 @@ import java.io.Serializable;
    * @创建时间： 2018年4月21日下午9:20:29
    * @修改备注：
    */
-@SuppressWarnings("serial")
+@Data
 public class SysUR implements Serializable{
 	private int id;
 	private String userName;
 	private String roleName;
-	
-	public int getId() {
-		return id;
-	}
-	public void setId(int id) {
-		this.id = id;
-	}
-	public String getUserName() {
-		return userName;
-	}
-	public void setUserName(String userName) {
-		this.userName = userName;
-	}
-	public String getRoleName() {
-		return roleName;
-	}
-	public void setRoleName(String roleName) {
-		this.roleName = roleName;
-	}
-	
 	
 
 }

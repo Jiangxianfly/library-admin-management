@@ -2,6 +2,7 @@ package com.chen.PLoveLibrary.domain;
 
 import java.io.Serializable;
 
+import lombok.Data;
 import org.hibernate.validator.constraints.NotBlank;
 
 /**
@@ -11,24 +12,12 @@ import org.hibernate.validator.constraints.NotBlank;
    * @创建时间： 2018年4月22日下午12:40:16
    * @修改备注：
    */
-@SuppressWarnings("serial")
+@Data
 public class BookClass implements Serializable{
 
+	@NotBlank(message="不能为空")
 	private String bkCatalog;//分类号
+	@NotBlank(message="不能为空")
 	private String bkClassName;//分类名
-	@NotBlank(message="不能为空")
-	public String getBkCatalog() {
-		return bkCatalog;
-	}
-	public void setBkCatalog(String bkCatalog) {
-		this.bkCatalog = bkCatalog;
-	}
-	@NotBlank(message="不能为空")
-	public String getBkClassName() {
-		return bkClassName;
-	}
-	public void setBkClassName(String bkClassName) {
-		this.bkClassName = bkClassName;
-	}
 
 }
