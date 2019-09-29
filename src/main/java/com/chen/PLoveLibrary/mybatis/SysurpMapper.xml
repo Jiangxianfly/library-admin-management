@@ -23,6 +23,6 @@
 	</select>
 	<!--查询前台管理员（Manager)的个数-->
 	<select id="getManagerNum"  resultType="java.lang.Integer">
-        select count(1) from sys_ur where roleName="Manager"
+        select count(1) from sys_ur where roleName='Manager'
 	</select>
 </mapper>
